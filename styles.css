@@ -1,0 +1,202 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+}
+
+.navbar {
+  padding: 40px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  background: #ffffff;
+}
+
+#name {
+  text-align: center;
+  width: 15%;
+  height: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 38px;
+  padding-bottom: 39px;
+  background-color: #63a8a5;
+  margin-left: 14%;
+  margin-bottom: 0px;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.links {
+  float:right;
+  margin-right: 15%;
+  margin-bottom: 0px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#about, #portfolio, #contact {
+  text-decoration: none;
+  color: #a5a6a4;
+  margin-right: 15px;
+}
+
+h2 {
+  font-size: 24px;
+
+}
+
+a {
+  color: #d21034;
+}
+
+#contactHeader {
+  padding-left: 10px;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+#main-bio,
+#bio-image {
+  float: left;
+}
+
+#main-bio {
+  width: 70%;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+
+}
+
+#contact-info {
+  float: right;
+  width: 25%;
+  background-color: white;
+
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+	
+}
+
+footer {
+    width:100%;
+    height: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position:fixed;
+    background-color: #333;
+    bottom: 1%;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+
+}
+
+@media only screen and (max-width: 980px) {
+    body {
+        background-color: #efeee7;
+      
+    }
+
+    #name {
+      margin-left: 5%;
+    }
+
+    #main-bio{
+      width: 50%;
+      margin-left: 5%;
+    }
+
+    .links {
+      margin-right: 5%;
+    }
+
+    #contact-info {
+      margin-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: #efeee7;
+        }
+    
+    #main-bio{
+      width: 70%;
+      margin-left: 1%;
+      margin-right: 1%;
+      margin-bottom: 1%;
+    }
+
+    #contact-info {
+      width: 71.95%;
+      margin-left: 1%;
+      margin-right: 1%;
+      float: left;
+    }
+
+@media only screen and (max-width: 640px) {
+    body {
+        background-color: #efeee7;
+        }
+
+    #main-bio{
+      width: 50%;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 1%;
+    }
+
+    #contact-info {
+      width: 52%;
+      margin-left: 5%;
+      float: left;
+    }
+
+    #name {
+      margin-left: 5%;
+    }
+
+    footer {
+      margin-top: 1%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
